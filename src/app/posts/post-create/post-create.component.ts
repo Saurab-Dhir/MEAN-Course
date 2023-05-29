@@ -19,11 +19,7 @@ export class PostCreateComponent {
     if(form.invalid){
       return
     }
-    const post:Post = {                             // post is of type Post (ctr+click to see)
-      title: form.value.title,
-      content: form.value.content
-    };
-
     this.postServices .addPost(form.value.title, form.value.content);
+    form.resetForm();
   }
 }
