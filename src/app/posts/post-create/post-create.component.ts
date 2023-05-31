@@ -12,6 +12,9 @@ import { PostService } from "../posts.service";
 export class PostCreateComponent {
   enteredTitle='';
   enteredContent='';
+  private mode = 'create';
+  private postId = 'string'
+  post: Post;
 
   constructor(public postServices: PostService){}
 
