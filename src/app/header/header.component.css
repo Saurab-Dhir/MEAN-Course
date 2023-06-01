@@ -1,20 +1,14 @@
-a {
-  text-decoration: none;
-  color: white;
-  font-size: large;
-}
-
-a:hover {
-  background-color: rgb(81, 50, 145);
-  border-radius: 5%;
-}
-
 ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.spacer{
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.spacer {
   flex: 1 1 auto;
 }
